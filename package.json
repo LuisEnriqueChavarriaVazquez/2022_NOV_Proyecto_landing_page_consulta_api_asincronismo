@@ -4,7 +4,7 @@
   "description": "This landing page is to practice to consume an API and practice a framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "tailwindcss build src/static/style/style.css -o src/static/style/style.css"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,11 @@
   "bugs": {
     "url": "https://github.com/LuisEnriqueChavarriaVazquez/2022_NOV_Proyecto_landing_page_consulta_api_asincronismo/issues"
   },
-  "type": "module",
   "homepage": "https://github.com/LuisEnriqueChavarriaVazquez/2022_NOV_Proyecto_landing_page_consulta_api_asincronismo#readme",
   "dependencies": {
-    "fetch-node": "^0.0.1"
-  }
+    "fetch-node": "^0.0.1",
+    "node-fetch": "^3.3.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "type": "module"
 }
