@@ -1,0 +1,28 @@
+{
+  "name": "2022_nov_proyecto_landing_page_consulta_api_asincronismo",
+  "version": "1.0.0",
+  "description": "This landing page is to practice to consume an API and practice a framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisEnriqueChavarriaVazquez/2022_NOV_Proyecto_landing_page_consulta_api_asincronismo.git"
+  },
+  "keywords": [
+    "Landing",
+    "page",
+    "API"
+  ],
+  "author": "Luis Enrique Chavarria Vazquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuisEnriqueChavarriaVazquez/2022_NOV_Proyecto_landing_page_consulta_api_asincronismo/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/LuisEnriqueChavarriaVazquez/2022_NOV_Proyecto_landing_page_consulta_api_asincronismo#readme",
+  "dependencies": {
+    "fetch-node": "^0.0.1"
+  }
+}
